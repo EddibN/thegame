@@ -59,6 +59,7 @@ height: 40px;
    .player {
        float: left;
        margin-left: 30%;
+       text-align: center;
    }
 
    player-image{
@@ -68,6 +69,7 @@ height: 40px;
    .computer {
     float: right;
     margin-right: 30%;
+    text-align: center;
 }
 
 computer-image {
