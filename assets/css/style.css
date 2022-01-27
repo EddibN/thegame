@@ -34,13 +34,14 @@ width: 50%;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
+display: block;
 }
 
 .controls-area {
- width: 50%;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+ display: inline-block;
+margin:5px;
+width: 80;
+height: 40px;
 }
 
 .score-area {
@@ -49,3 +50,26 @@ margin-right: auto;
    margin-left: auto;
    margin-right: auto;
    }
+
+   #messages {
+       height: 10px;
+
+   }
+
+   .player {
+       float: left;
+       margin-left: 30%;
+   }
+
+   player-image{
+       width: 60%;
+   }
+
+   .computer {
+    float: right;
+    margin-right: 30%;
+}
+
+computer-image {
+    width: 60%;
+}
